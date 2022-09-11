@@ -1,7 +1,13 @@
-import "./App.css";
+import React from "react";
+import Store from "./components/Store";
+import DataProvider from "./context/DataProvider";
 
-function App() {
-  return <div></div>;
-}
+const App = () => {
+  return (
+    <DataProvider>
+      <Store />
+    </DataProvider>
+  );
+};
 
 export default App;
