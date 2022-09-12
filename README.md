@@ -1,9 +1,9 @@
 <h1 align="center">
-  Validation Form
+  Shopping Cart
   <br>
 </h1>
 
-<h4 align="center">It is a simple program to practice with React JS, which will show an error to the user when the user clicks on any of the fields until the input is correct.</h4>
+<h4 align="center">It is a simple program to practice with React JS</h4>
 
 <p align="center">
   <a href="https://shopping-cart-eosin-alpha.vercel.app/">LiveDemo</a> •
@@ -44,7 +44,6 @@ This software uses the following open source packages:
 - [Reactjs](http://reactjs.com/)
 - [Reactj-Icons](https://react-icons.github.io/)
 - [React Router Dom](https://reactrouter.com/)
-- [React-toastify](https://fkhadra.github.io/)
 - [Tailwindcss](https://tailwindcss.com/)
 
 ## License
