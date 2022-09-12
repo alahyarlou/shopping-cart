@@ -13,9 +13,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/cart" element={<Cart />} />
-          <Route path="/products" element={<Store />} />
+          <Route path="/products" index element={<Store />} />
           <Route path="/products/:id" element={<DeteailsProduct />} />
-          {/* <Route path="/" element={<Navigate to="/products" />} /> */}
+          <Route path="/*" element={<Navigate to="/products" />} />
         </Routes>
       </CartProvider>
     </DataProvider>

@@ -1,4 +1,4 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { IoArrowBackCircleSharp } from "react-icons/io5";
 // context
@@ -7,8 +7,7 @@ import { ProductContext } from "../context/DataProvider";
 const DeteailsProduct = () => {
   const { id } = useParams();
   const products = useContext(ProductContext);
-  const product = products[id - 1];
-  const { image, description, category, price, title, rating } = product;
+  const { image, description, category, price, title } = products[id - 1];
   return (
     <div className="container my-10">
       <div className="bg-white shadow-md p-5 rounded-md border w-full lg:max-w-5xl mx-auto  grid grid-cols-12 items-center gap-x-10">
